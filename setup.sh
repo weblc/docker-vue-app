@@ -10,8 +10,8 @@ docker-compose down || true;
 # 构建镜像
 docker-compose build;
 # 启动并后台运行
-docker-compose up -d;
+# docker-compose up -d;
 
 # 对空间进行自动清理
-docker system prune -a -f
+# docker system prune -a -f
 
