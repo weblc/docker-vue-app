@@ -3,7 +3,7 @@ services:
   vueApp:
     build:                          # 这里指的是我们刚刚撸的 Dockerfile 文件
       context: .                    
-      dockerfile: Dockerfile
+      dockerfile: DockerFile
     image: nodejs                   # 镜像名称
     container_name: vue_app          # 容器名称
     restart: always                 # 重启方式
